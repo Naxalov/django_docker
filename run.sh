@@ -1,1 +1,1 @@
-docker run -it django-docker bash
+docker run -it -p 8000:8000 django-docker bash

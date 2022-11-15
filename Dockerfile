@@ -7,3 +7,6 @@ RUN apt-get install -y git
 RUN pip3 install Django
 # Install djangorestframework
 RUN pip3 install djangorestframework
+
+# Clone the repository
+RUN git clone https://github.com/python-2022C/drf_tutorial.git
